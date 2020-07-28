@@ -1,6 +1,8 @@
 <?php
 require dirname( __FILE__ ) . '/../../src/lazy-images.php';
 
+use Automattic\Jetpack\Jetpack_Lazy_Images;
+
 class WP_Test_Lazy_Images extends WP_UnitTestCase {
 
 	public function setUp() {
