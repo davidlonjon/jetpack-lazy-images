@@ -6,6 +6,7 @@
  */
 
 // phpcs:disable
+namespace Automattic\Jetpack;
 
 use Automattic\Jetpack\Constants as Jetpack_Constants;
 
