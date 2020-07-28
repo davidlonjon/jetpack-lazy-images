@@ -2,7 +2,7 @@
 /**
  * Tests bootstrap.
  *
- * @package automattic/jetpack-device-detection
+ * @package automattic/jetpack-lazy-images
  */
 
 // @phpcs:disable Squiz.Commenting.FileComment
