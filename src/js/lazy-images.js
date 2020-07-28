@@ -1,4 +1,3 @@
-/* eslint-disable */
 /* globals IntersectionObserver */
 
 var jetpackLazyImagesModule = function() {
