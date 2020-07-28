@@ -8,7 +8,11 @@
   },
   "scripts": {
     "build": "webpack --config webpack.config.prod.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "testjs": "echo \"Error: no test specified\" && exit 1",
+    "test:php:setup": "bash bin/install-wp-tests.sh wordpress admin admin db",
+    "test:php:env-start": "docker-compose up -d",
+    "test:php:env-stop": "docker-compose stop",
+    "test:phpunit": "docker-compose exec wordpress bash -c 'cd /var/jetpack-lazy-images; composer install; ./vendor/phpunit/phpunit/phpunit --colors=always'"
   },
   "repository": {
     "type": "git",

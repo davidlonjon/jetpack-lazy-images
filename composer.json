@@ -14,12 +14,6 @@
 			"src/"
 		]
 	},
-	"scripts": {
-		"phpunit": [
-			"@composer install",
-			"./vendor/phpunit/phpunit/phpunit --colors=always"
-		]
-	},
 	"minimum-stability": "dev",
 	"prefer-stable": true
 }
