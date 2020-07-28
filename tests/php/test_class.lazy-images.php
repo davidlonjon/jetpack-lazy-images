@@ -1,5 +1,5 @@
 <?php
-require dirname( __FILE__ ) . '/../../../../modules/lazy-images/lazy-images.php';
+require dirname( __FILE__ ) . '/../../src/lazy-images.php';
 
 class WP_Test_Lazy_Images extends WP_UnitTestCase {
 
